@@ -7,7 +7,7 @@ class Test{
 	int perimeter = 230;
 	int length = 70;
 	int breadth;
-	breadth = ((perimeter-(2*length)/2);
+	breadth = perimeter-(2*length)/2;
 	System.out.println("Breadth of rectangle is ="+breadth);
 	
   }
